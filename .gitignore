@@ -52,5 +52,7 @@ docs/_build/
 
 # PyBuilder
 target/
->>>>>>> b0e9d627370136da072be692091d93de01032c6a
+
+# JS
+
 node_modules
