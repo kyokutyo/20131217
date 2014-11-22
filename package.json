@@ -1,0 +1,26 @@
+{
+  "name": "20131217",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kyokutyo/20131217.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/kyokutyo/20131217/issues"
+  },
+  "homepage": "https://github.com/kyokutyo/20131217",
+  "devDependencies": {
+    "browser-sync": "^1.6.3",
+    "coffee-script": "^1.8.0",
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.1"
+  }
+}
