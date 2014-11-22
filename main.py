@@ -1,4 +1,6 @@
-from flask import Flask, render_template
+from datetime import date
+from flask import Flask, jsonify, render_template
+
 app = Flask(__name__)
 app.config['DEBUG'] = True
 
@@ -10,6 +12,15 @@ app.config['DEBUG'] = True
 def index():
     date = '20131217'
     return render_template('index.html', date=date)
+
+
+@app.route('/data.json')
+def json():
+    birthday = date(2013, 12, 17)
+    time_after_birth = abs(date.today() - birthday)
+    return jsonify(
+        days=str(time_after_birth.days),
+    )
 
 
 @app.errorhandler(404)
