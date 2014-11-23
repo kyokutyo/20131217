@@ -10,8 +10,7 @@ app.config['DEBUG'] = True
 
 @app.route('/')
 def index():
-    date = '20131217'
-    return render_template('index.html', date=date)
+    return render_template('index.html')
 
 
 @app.route('/data.json')
