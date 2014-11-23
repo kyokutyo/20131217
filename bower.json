@@ -1,0 +1,19 @@
+{
+  "name": "20131217",
+  "version": "1.0.0",
+  "homepage": "https://github.com/kyokutyo/20131217",
+  "authors": [
+    "kyokutyo <haruta@kyokutyo.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "react": "~0.12.1"
+  }
+}

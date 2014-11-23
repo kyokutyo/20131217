@@ -54,3 +54,5 @@ target/
 
 # JS
 node_modules
+bower_components
+build
